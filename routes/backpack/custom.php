@@ -3,25 +3,6 @@
 declare(strict_types=1);
 
 use App\Http\Controllers\Admin\Address\AddressCrudController;
-use App\Http\Controllers\Admin\Customer\CustomerCrudController;
-use App\Http\Controllers\Admin\Dealer\DealerCrudController;
-use App\Http\Controllers\Admin\Dealer\PersonalInformationCrudController;
-use App\Http\Controllers\Admin\Dealer\ShippingSpecificationsCrudController;
-use App\Http\Controllers\Admin\Employee\EmployeeCrudController;
-use App\Http\Controllers\Admin\ExcludedShippingZone\ExcludedShippingZoneCrudController;
-use App\Http\Controllers\Admin\FlowerColor\FlowerColorCrudController;
-use App\Http\Controllers\Admin\Flowering\FloweringCrudController;
-use App\Http\Controllers\Admin\MainCategory\MainCategoryCrudController;
-use App\Http\Controllers\Admin\Municipality\MunicipalityCrudController;
-use App\Http\Controllers\Admin\Origin\OriginCrudController;
-use App\Http\Controllers\Admin\PlantColor\PlantColorCrudController;
-use App\Http\Controllers\Admin\Product\ProductCrudController;
-use App\Http\Controllers\Admin\Province\ProvinceCrudController;
-use App\Http\Controllers\Admin\Region\RegionCrudController;
-use App\Http\Controllers\Admin\ShippingDay\ShippingDayCrudController;
-use App\Http\Controllers\Admin\SpecificCategory\SpecificCategoryCrudController;
-use App\Http\Controllers\Admin\State\StateCrudController;
-use App\Http\Controllers\Admin\Vbn\VbnCrudController;
 use Illuminate\Support\Facades\Route;
 
 // --------------------------

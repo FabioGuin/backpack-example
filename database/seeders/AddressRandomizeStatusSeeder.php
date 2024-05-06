@@ -6,7 +6,6 @@ namespace Database\Seeders;
 
 use App\Models\Address;
 use App\Models\Customer;
-use App\Models\Dealer;
 use Illuminate\Database\Seeder;
 
 class AddressRandomizeStatusSeeder extends Seeder

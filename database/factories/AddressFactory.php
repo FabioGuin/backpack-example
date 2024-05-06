@@ -6,7 +6,6 @@ namespace Database\Factories;
 
 use App\Models\Address;
 use App\Models\Customer;
-use App\Models\Dealer;
 use App\Models\Municipality;
 use App\Models\Province;
 use App\Models\Region;
