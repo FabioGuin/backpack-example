@@ -86,9 +86,6 @@ trait ListOperations
         Filter::make('is_invoiceable');
         Filter::make('is_not_invoiceable');
 
-        Filter::make('shared_client_code');
-        Filter::make('shared_client_company');
-        Filter::make('shared_client_email_username');
         Filter::make('region');
         Filter::make('province');
         Filter::make('municipality');
@@ -106,12 +103,6 @@ trait ListOperations
 
     protected function setupColumns(): void
     {
-        Column::make('shared_client_code');
-        Column::make('shared_client_company');
-        Column::make('shared_client_email_username');
-        Column::make('shared_client_region');
-        Column::make('shared_client_province');
-        Column::make('shared_client_municipality');
         Column::make('postal_code');
         Column::make('alias');
         Column::make('is_default');
